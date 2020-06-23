@@ -14,7 +14,7 @@
     <packaging>jar</packaging>
 
     <name>vue-tweets</name>
-    <description>Uma pequena aplicação que busca tweets sobre um assunto.</description>
+    <description>A small application that searches for tweets about a subject.</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -67,7 +67,7 @@
                 <version>1.6.0</version>
                 <executions>
                     <execution>
-                        <id>executando build do ui para producao...</id>
+                        <id>build frontend ...</id>
                         <phase>clean</phase>
                         <goals>
                             <goal>exec</goal>
@@ -87,7 +87,7 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>copiand arquivos do frontend...</id>
+                        <id>copying files from the frontend ...</id>
                         <phase>generate-resources</phase>
                         <goals>
                             <goal>copy-resources</goal>
